@@ -42,16 +42,16 @@ return [
     'file' => ':attribute bir dosya olmalıdır',
     'filled' => ':attribute bir değere sahip olmalı.',
     'gt' => [
-        'numeric' => 'The :attribute must be greater than :value.',
-        'file' => 'The :attribute must be greater than :value kilobytes.',
-        'string' => 'The :attribute must be greater than :value characters.',
-        'array' => 'The :attribute must have more than :value items.',
+        'numeric' => ':attribute :value dan büyük olmalıdır.',
+        'file' => ':attribute :value KB den büyük olmalıdır.',
+        'string' => ':attribute :value karakterlerinden büyük olmalıdır.',
+        'array' => ':attribute :value öğesinden fazlasına sahip olmalıdır.',
     ],
     'gte' => [
-        'numeric' => 'The :attribute must be greater than or equal :value.',
-        'file' => 'The :attribute must be greater than or equal :value kilobytes.',
-        'string' => 'The :attribute must be greater than or equal :value characters.',
-        'array' => 'The :attribute must have :value items or more.',
+        'numeric' => ':attribute :value büyük veya eşit olmalıdır.',
+        'file' => ':attribute :value KB den büyük veya eşit olmalıdır.',
+        'string' => ':attribute :value karakterlerinden büyük veya eşit olmalıdır.',
+        'array' => ':attribute :value öğelerine veya daha fazlasına sahip olmalıdır.',
     ],
     "image" => ":attribute alanı resim dosyası olmalıdır.",
     "in" => ":attribute değeri geçersiz.",
@@ -79,7 +79,7 @@ return [
         "string" => ":attribute değeri :max karakter değerinden küçük olmalıdır.",
         "array" => ":attribute değeri :max adedinden az nesneye sahip olmalıdır."
     ],
-    'mimes' => 'The :attribute must be a file of type: :values.',
+    'mimes' => ':attribute ( :values ) Türünde bir dosya olmalıdır.',
     'mimetypes' => ':attribute bir dosya olmalı: :values.',
     'min' => [
         "numeric" => ":attribute değeri :min değerinden büyük olmalıdır.",
